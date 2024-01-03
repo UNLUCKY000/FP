@@ -1,6 +1,5 @@
 import streamlit as st
 from transformers import T5Tokenizer, T5ForConditionalGeneration
-!pip install sentencepiece
 
 
 tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-base")
